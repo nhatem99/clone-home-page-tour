@@ -163,12 +163,14 @@
     justify-content: center;
     color: #fff;
   }
+  
   #mobile_main_menu.mainnav_out{
     animation: mainNavOut 0.2s;
   }
   #mobile_main_menu.mainnav_in{
     animation: mainNavIn 0.2s;
   }
+
   ul {
     margin-top: 60px;
     margin-bottom: 40px;
@@ -191,7 +193,7 @@
   }
   .mobile_sub_menu {
     margin-top: 0px;
-    margin-bottom: 40px;
+    margin-bottom: 0px;
     list-style: none;
     overflow: hidden;
     width: 100%;
@@ -203,10 +205,9 @@
     }
     ul {
       margin-top: 0px;
-      // margin-bottom: 10px !important;
+      margin-bottom: 0;
       .sub-menu{
         margin-left: 15px;
-        margin-bottom: 0px;
         list-style: none;
       }
     }
